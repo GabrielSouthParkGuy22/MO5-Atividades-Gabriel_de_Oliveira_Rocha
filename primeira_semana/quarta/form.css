@@ -1,0 +1,68 @@
+h1,
+label,
+legend {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  border: 2px solid rgba(0, 0, 0, 0.842);
+  padding: 0.5rem 0.2rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus {
+  border-color: rgb(33, 91, 197);
+  background-color: rgb(239, 241, 245);
+}
+
+textarea:focus {
+  border-color: rgb(33, 91, 197);
+  background-color: rgb(239, 241, 245);
+}
+
+select,
+fieldset {
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+select {
+  outline: none;
+  border: 2px solid #000;
+}
+
+select:focus {
+  border: 2px solid rgb(33, 91, 197);
+}
+
+fieldset {
+  border: 2px solid #000;
+}
+
+fieldset input {
+  display: inline;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background-color: rgb(11, 53, 129);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.15rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(29, 74, 158);
+}
