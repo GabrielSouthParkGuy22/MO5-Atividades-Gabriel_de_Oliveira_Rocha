@@ -1,0 +1,24 @@
+#firstDiv h1 + p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #092994;
+}
+
+#firstDiv h1 + a {
+  text-decoration: none;
+}
+
+#secondDiv h1 ~ p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  color: #066e46;
+}
+
+#secondDiv h1 ~ a {
+  text-decoration: none;
+}
+
+#thirdDiv > span {
+  display: block;
+  color: #e7a305;
+}

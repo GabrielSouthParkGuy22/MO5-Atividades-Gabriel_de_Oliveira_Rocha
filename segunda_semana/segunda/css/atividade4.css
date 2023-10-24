@@ -1,0 +1,31 @@
+.divOdd p:nth-child(even) {
+  background-color: #9537e2;
+}
+
+.divOdd p::first-letter {
+  font-size: 1.7rem;
+}
+
+.divOdd::after {
+  content: " ";
+  display: block;
+  max-width: 6rem;
+  height: 0.2rem;
+  background-color: #5208b3;
+  margin: 2rem 0rem 4rem 0rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.detail::before {
+  content: " ";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-color: #5208b3;
+  border-radius: 50%;
+}
