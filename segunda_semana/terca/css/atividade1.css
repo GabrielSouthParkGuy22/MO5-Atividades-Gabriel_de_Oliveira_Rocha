@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  max-width: 600px;
+  height: 200px;
+  border-radius: 0.5rem;
+  border: 1rem solid #310a9b;
+  margin: 1.25rem;
+}
+
+.divInline {
+  max-width: 300px;
+  height: 200px;
+  border-radius: 0.5rem;
+  border: 1rem solid #d4801f;
+  display: inline-block;
+  margin: 2rem;
+}
+
+.box2 {
+  max-width: 600px;
+  height: 200px;
+  border-radius: 0.5rem;
+  border: 1rem solid #530677;
+  margin: 2.5rem 1.5rem 6rem 4.5rem;
+}

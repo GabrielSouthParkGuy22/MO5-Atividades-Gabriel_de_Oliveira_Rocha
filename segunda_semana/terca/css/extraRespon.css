@@ -1,0 +1,32 @@
+@media (max-width: 1040px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cards h1,
+  p,
+  a {
+    margin: 1rem 0rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards h1 {
+    font-size: 2rem;
+  }
+
+  .cards p {
+    font-size: 1rem;
+  }
+
+  .cards a {
+    padding: 1rem 0.6rem;
+  }
+}
+
+@media (max-width: 350px) {
+  nav {
+    justify-content: center;
+    gap: 1rem 2rem;
+  }
+}

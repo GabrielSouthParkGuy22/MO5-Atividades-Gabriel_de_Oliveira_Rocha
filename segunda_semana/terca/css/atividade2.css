@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box3 {
+  max-width: 600px;
+  height: 200px;
+  border-radius: 0.5rem;
+  border: 2px solid #140a9b;
+  margin: 2.5rem;
+}
+
+.circle {
+  max-width: 200px;
+  height: 200px;
+  border: 1rem solid #751212;
+  border-radius: 50%;
+  margin: 2.5rem;
+}
+
+.differentBorders {
+  min-width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+  margin: 2.5rem;
+  display: inline-block;
+}
+
+.dfb-1 {
+  border: 1rem solid #370347;
+}
+
+.dfb-2 {
+  border: 1rem dotted #03502c;
+}
+
+.dfb-3 {
+  border: 1rem dashed #4f5003;
+}
+
+.dfb-4 {
+  border: 1rem double #470314;
+}
