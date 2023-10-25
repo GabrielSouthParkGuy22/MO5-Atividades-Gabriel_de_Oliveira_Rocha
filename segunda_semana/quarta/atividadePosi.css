@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #346793;
+  background-color: #659bca;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #653493;
+  background-color: #9f63d6;
+}
+
+.relative-box {
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #349334;
+  background-color: #62cf62;
+  z-index: 1;
+}
+
+.float-box {
+  float: right;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #933434;
+  background-color: #cc5959;
+}
+
+.z-index-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #939134;
+  background-color: #cecc5d;
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
+
+.rotate-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #933460;
+  background-color: #b44e7e;
+  rotate: 45deg;
+  margin: 0 auto;
+}
+
+.translate-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #934f34;
+  background-color: #ce7d5c;
+  translate: 4rem 0rem;
+}
+
+.animated-blocks-container {
+  border: 8px solid rgb(0, 0, 0);
+  max-width: 1200px;
+  margin: 4rem auto;
+}
+
+.animated-box-1 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #280852;
+  background-color: #5314a7;
+  position: relative;
+}
+
+.animated-box-2 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #4d5208;
+  background-color: #a79d14;
+  position: relative;
+}
+
+.animated-box-3 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #082e52;
+  background-color: #1443a7;
+  position: relative;
+}
+
+.animated-box-4 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #520808;
+  background-color: #a71414;
+  position: relative;
+}
+.animated-box-5 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #085218;
+  background-color: #14a728;
+  position: relative;
+}
+
+.animated-box-6 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #523008;
+  background-color: #a75b14;
+  position: relative;
+}
+
+.animationItem {
+  animation: moveRight 3s infinite;
+}
+
+@keyframes moveRight {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1085px;
+  }
+}
