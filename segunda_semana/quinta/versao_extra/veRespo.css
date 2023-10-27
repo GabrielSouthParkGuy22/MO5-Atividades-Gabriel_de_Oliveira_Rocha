@@ -1,0 +1,109 @@
+@media (max-width: 1100px) {
+  .first-section,
+  .second-section {
+    grid-template-columns: 1fr;
+  }
+
+  .first-section .titles,
+  .second-section .titles {
+    grid-column: span 1;
+  }
+
+  .second-section .table {
+    justify-self: center;
+    margin: 1rem 0rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .logo {
+    font-size: 3rem;
+  }
+
+  .nav-bar {
+    gap: 1.2rem;
+  }
+
+  .nav-bar a {
+    font-size: 1.2rem;
+  }
+
+  .first-section img {
+    display: none;
+  }
+
+  .titles {
+    font-size: 2rem;
+    display: block;
+  }
+
+  .titles::after {
+    content: "";
+    display: block;
+    background-color: #03380f;
+    max-width: 6rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .titles::before {
+    display: none;
+  }
+
+  .second-section table {
+    border: none;
+    padding: 0rem;
+  }
+
+  .second-section table td,
+  th {
+    padding: 1.5rem 1rem;
+  }
+
+  .tools {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .second-section table td,
+  th {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .tools {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .nav-bar {
+    gap: 0.8rem;
+  }
+
+  .nav-bar a {
+    font-size: 1rem;
+  }
+
+  .titles {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+
+  .second-section table th,
+  td {
+    font-size: 1.1rem;
+  }
+
+  footer a {
+    font-size: 1.5rem;
+  }
+}
