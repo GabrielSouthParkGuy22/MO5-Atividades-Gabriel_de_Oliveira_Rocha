@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.cabecalho {
+  background-color: #034637;
+}
+
+#hcb {
+  color: #30e44e;
+  text-align: center;
+  font-size: 4rem;
+  padding: 1rem;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.menu {
+  top: 0px;
+  height: 100%;
+  position: fixed;
+  background-color: #02201a;
+}
+
+.menu ul {
+  padding: 2rem;
+  list-style: none;
+}
+
+.menu ul li + li {
+  margin-top: 0.8rem;
+}
+
+.menu ul a {
+  color: #72f888;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.menu ul a:hover {
+  color: #277734;
+}
+
+.texto,
+.tabela,
+#pnl,
+.rodape a,
+#hcb {
+  margin-left: 280px;
+  padding: 1rem;
+}
+
+#htx,
+#htb {
+  margin-bottom: 1rem;
+}
+
+.texto {
+  max-width: 1000px;
+}
+
+.tabela table,
+tr,
+td {
+  border: 2px solid #000;
+  padding: 0.5rem;
+}
+
+.tabela td:hover {
+  border: 2px solid #096d06;
+  color: #096d06;
+  padding: 0.5rem;
+}
+
+.rodape {
+  background-color: #034637;
+}
+
+.rodape a {
+  display: block;
+  text-decoration: none;
+  color: #72f888;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.rodape a:hover {
+  color: #277734;
+}
+
+button img {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 1rem;
+}
