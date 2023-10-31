@@ -1,0 +1,54 @@
+Questão 1 ------------------------------------------------
+
+1. R: NVM (Node Version Manager) é um gerenciador de versões do node
+
+2.
+ 
+  a. R: NPM (Node Package Manager) é um gerenciador de pacotes, usamos ele para importar bibliotecas
+
+  b. R: Ele irá instalar o "prompt-sync", que vai permitir que o usuário consiga dar uma entrada no nosso programa
+
+  c. R: No diretório aonde está o seu arquivo.
+
+3. R: Não, as variáveis em Python são todas criadas da mesma forma, e não precisa declarar elas, posso escrever direto, como por exemplo:
+num = 22, e a parte de escopo se aplica a qualquer variável criada.
+
+4. R: Sim, há umas certas diferenças quando criamos variáveis no JS, temos var, const e let, var sendo uma variável de escopo global, let sendo uma variável de escopo local, e por fim const que é praticamente igual a let, exceto pelo detalhe que é constante e não podemos mudar os valores assim que definidos, diferente de uma variável let.
+
+Questão 2 ------------------------------------------------
+
+let: é uma variável com escopo de bloco, ou seja o escopo é local, a variável fica visível dentro do código onde ela foi criada, se criarmos uma let dentro de if, esse let dentro do if ou dentro de algum outro bloco de código só pode ser acessada dentro do seu escopo, podemos redefinir os valores de uma let, exemplo:
+let y = 22;
+y = 25;
+
+const: é uma variável constante, ou seja não podemos trocar o valor dela, se tentarmos trocar o valor de uma const, receberemos um erro no console, tudo sobre let pode ser aplicado a const, exceto que let podemos redefinir o valor da variável, enquanto isso não é possível com const.
+
+var: a principal diferença entre let e var, é que var tem escopo global, ou seja independente da área do código que uma var é criada ela pode ser acessada, se por exemplo colocarmos uma var dentro de um if, poderiamos dar console.log(), que ele consegue puxar o valor de var, se a condição for verdadeira, ele retorna o valor de var, se não ele retornara "undefined", outra diferença é que podemos redeclarar variáveis, mesmo se uma já com o mesmo nome foi criada, exemplo:
+var x = 222;
+var x = 333;
+
+causo isso fosse feito com let, teriamos um erro dizendo que a variável com o nome "x", já foi declarada
+
+Questão 3: ------------------------------------------------
+
+ var x: normalmente, se uma variável var é definida 2 vezes uma fora e dentro de um bloco, por exemplo ele redefiniria os valores, dependendo da ordem e condição, se o if fosse verdadeiro e o var fora do if viesse primeiro, ele retornaria o valor do var dentro do if, se o var viesse depois do if, ele retornaria o valor do var fora do if, neste caso a função retornaria 6 e 5, por causa que está dentro de uma função, quando um elemento está dentro de uma função, e utilizamos alguma das palavras chaves como var, const ou let para declarar uma variável, isso tornaria ela uma variável local, agora se escrevermos sem as palavras chaves, seria global, portanto mostraria 6 e 6 no console.
+
+let x: normalmente, a let é local, ou seja, só é acessada dentro do escopo, nesse caso o mesmo pode ser dito quando usamos var dentro de uma função, se declararmos a variável sem a palavra chave, retornara 6 e 6.
+
+Questão 4: ------------------------------------------------
+
+Não será possível editar o valor de uma variável const, por causa que ela é constante, se tentar, teriamos um erro no console, porém é possível trocar os valores que estão dentro de uma array(const) e um objeto(const), não posso declarar um novo objeto ou array, porém posso editar os já existentes, exemplo:
+const myArray = [1, 2, 3, 4, 5];
+myArray[0] = "string";
+
+const myObject = {
+value1: 1,
+value2: 2,
+value3: 3,
+value4: 4,
+value5: 5
+};
+
+myObject.value1 = "string"
+
+funcionaria sem problemas.
